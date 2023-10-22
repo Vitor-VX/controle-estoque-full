@@ -1,0 +1,58 @@
+.conteiner-logs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+}
+
+.log-removed,
+.log-edited,
+.log-added {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    font-weight: bold;
+    transition: 450ms;
+    font-size: 14px;
+}
+
+.log-removed p,
+.log-edited p,
+.log-added p {
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.log-removed {
+    color: white;
+    background-color: #f81c1c;
+    border: 1px solid #cc0000;
+}
+
+.log-edited {
+    color: white;
+    background-color: #3377ff;
+    border: 1px solid #0033cc;
+}
+
+.log-added {
+    color: white;
+    background-color: #33cc33;
+    border: 1px solid #009900;
+}
+
+/* Hover's */
+
+.log-added:hover,
+.log-edited:hover,
+.log-removed:hover {
+    padding: 13px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}

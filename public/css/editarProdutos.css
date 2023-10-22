@@ -1,0 +1,54 @@
+.campo-editar-produtos {
+    font-family: sans-serif;
+    background-color: rgba(255, 255, 255, 0.452);
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(58, 56, 56, 0.8);
+    border-radius: 5px;
+    height: auto;
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.campo-editar-produtos ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.campo-editar-produtos ul li {
+    list-style: none;
+    color: white;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    padding: 15px;
+    width: 90%;
+    margin-top: 10px;
+    justify-content: space-between;
+    transition: 650ms;
+}
+
+.icons span i{
+    font-size: 15px;
+    margin-left: 5px;
+    background-color: rgba(0, 0, 255, 0.384);
+    border-radius: 5px;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 150ms;
+}
+
+/* Hove's */
+
+.campo-editar-produtos ul li:hover {
+    background-color: rgba(0, 0, 0, 0.9);   
+    padding: 18px;
+    transition: background 350ms;
+}
+
+.icons span i:hover {
+    padding: 10px;
+}

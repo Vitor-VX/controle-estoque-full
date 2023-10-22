@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Dela+Gothic+One&family=Kanit:wght@100&family=Pixelify+Sans&family=Roboto:ital,wght@0,300;1,100&family=Teko:wght@300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+.container-login {
+    background-color: #fff;
+    width: 340px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.campos-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #444;
+}
+
+input {
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.btn-entrar {
+    display: inline-block;
+    width: 180px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-entrar:hover {
+    background-color: #0056b3;
+}

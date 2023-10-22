@@ -1,0 +1,44 @@
+.product-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-list li {
+    width: 280px;
+    height: 150px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.product-list li:hover {
+    transform: scale(1.05)
+}
+
+.product-list h4 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.product-list p {
+    margin: 10px 0;
+}
+
+.product-list span {
+    font-weight: bold;
+}

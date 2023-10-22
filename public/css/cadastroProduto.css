@@ -1,0 +1,141 @@
+.conteiner-cadastro-produto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    height: auto;
+    width: 400px; 
+    padding: 20px;
+    border-radius: 10px;
+    transition: 750ms;
+}
+
+.conteiner-cadastro-produto a {
+    text-align: center;
+    text-decoration: none;
+    margin-left: auto;
+    margin-top: 15px;
+    background-color: rgb(0, 255, 0);
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+    width: 150px;
+    transition: 350ms;
+}
+
+.conteiner-cadastro-produto a:hover {
+    padding: 13px;
+    font-weight: bold;
+}
+
+.conteiner-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.conteiner-inputs label {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.conteiner-inputs input {
+    outline: none;
+    border-radius: 3px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    width: 100%;
+    transition: border-color 0.3s;
+    color: white;
+}
+
+/* Categorias */
+
+.dropdown {
+    min-width: 100%;
+    position: relative;
+    margin: 2px;
+}
+
+.dropdown * {
+    box-sizing: border-box;
+}
+
+.select {
+    background-color: #555;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px #2a2f3b solid;
+    border-radius: 0.5em;
+    padding: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.select-clicked {
+    border: 2px #26489a solid;
+    box-shadow:  0 0 0.8px #26489a;
+}
+
+.select:hover {
+    background: #334132;
+}
+
+.caret {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #fff;
+}
+
+.caret-rotate {
+    transform: rotate(180deg);
+}
+
+.menu {
+    list-style: none;
+    padding: 10px;
+    background: #323741;
+    border: 1px solid #323764;
+    border-radius: 0.5em;
+    color: white;
+    position: absolute;
+    top: 3em;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    opacity: 0;
+    display: none;
+    transition: 0.3s;
+    z-index: 1;
+}
+
+.menu li {
+    padding: 0.7em 0.5em;
+    margin: 0.3em 0;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    background: #2a2d35;
+}
+
+.activate {
+    background: #23242a;
+}
+
+.menu-open {
+    display: block;
+    opacity: 1;
+}

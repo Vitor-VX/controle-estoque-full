@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Dela+Gothic+One&family=Kanit:wght@100&family=Pixelify+Sans&family=Roboto:ital,wght@0,300;1,100&family=Teko:wght@300&display=swap');
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 5px black;
+    display: flex;
+    justify-content: right;
+}
+
+nav ul li {
+    display: inline;
+    margin: 15px;
+    transition: 350ms;
+    color: white;
+}
